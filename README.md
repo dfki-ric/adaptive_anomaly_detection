@@ -98,4 +98,4 @@ Climate Action (BMWK, grant number 20W1922F).
 [//]: <> (add logos of funding agencies / DFKI / University here)
 
 
-Copyright 2023, Siddhant Shete
+Copyright 2023, Siddhant Shete, DFKI RIC
