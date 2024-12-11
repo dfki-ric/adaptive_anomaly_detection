@@ -85,6 +85,8 @@ The code is distributed under the [3-Clause BSD license](LICENSE)
 
 ## Citation
 DOI: https://doi.org/10.1109/CASE59546.2024.10711376
+
+
 @INPROCEEDINGS{10711376,
   author={Shete, Siddhant and Mronga, Dennis and Jadhav, Ankita and Kirchner, Frank},
   booktitle={2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)}, 
