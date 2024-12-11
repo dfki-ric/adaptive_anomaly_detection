@@ -84,7 +84,18 @@ This also saves the results generated in the `results` folder. This folder will 
 The code is distributed under the [3-Clause BSD license](LICENSE)
 
 ## Citation
-(tbd)
+DOI: https://doi.org/10.1109/CASE59546.2024.10711376
+@INPROCEEDINGS{10711376,
+  author={Shete, Siddhant and Mronga, Dennis and Jadhav, Ankita and Kirchner, Frank},
+  booktitle={2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)}, 
+  title={Online-Adaptive Anomaly Detection for Defect Identification in Aircraft Assembly}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={4126-4133},
+  keywords={Training;Adaptation models;Accuracy;Computational modeling;Transfer learning;Benchmark testing;Feature extraction;Aircraft manufacture;Aircraft;Anomaly detection},
+  doi={10.1109/CASE59546.2024.10711376}}
+
 
 ### Maintainer / Authors / Contributers
 
