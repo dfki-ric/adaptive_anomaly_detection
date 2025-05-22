@@ -64,6 +64,9 @@ To get started with this project, follow these steps:
    (venv)$python3 visualization.py -t /path/to/images/*.jpg -d /path/to/true/values/.csv -r /path/conatining/folder/of/results.
 ```
 
+## Docker
+You can also use the docker environment to test and run the model, however the docker container is only build without GPU acceleration.
+
 ## Testing
 
 To check the correctness of the code, following conditions should be met:
@@ -105,7 +108,8 @@ This work has been developed in the research projects [SeMoSys](https://robotik.
 
 ### Maintainer / Authors / Contributers
 
-- Siddhant Shete
+Siddhant Shete
+
 "Online_Adaptive_Anomaly_Detection_for_Defect_Identification_in_Aircraft_Assembly" was initiated in SeMoSys project and is currently developed at the
 Robotics Innovation Center of the German Research Center for ArtificialIntelligence (DFKI) in Bremen.
 

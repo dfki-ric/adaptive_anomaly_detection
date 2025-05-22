@@ -1,5 +1,6 @@
 services:
   adaptive:
+    image: brean/adaptive_anomaly_detection:ubuntu24.04
     build:
       context: .
       dockerfile: Dockerfile
