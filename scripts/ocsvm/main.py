@@ -8,7 +8,7 @@ import cv2
 import numpy as np 
 import pandas as pd
 from SIFT_FLANN import *
-from Cosine import *
+from cosine import *
 import torch.nn as nn
 import os
 import time

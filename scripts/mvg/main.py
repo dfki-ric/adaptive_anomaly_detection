@@ -16,7 +16,7 @@ import argparse
 import matplotlib.pyplot as plt
 import time
 
-from Cosine import *
+from cosine import *
 from NN import *
 from SIFT_FLANN import *
 

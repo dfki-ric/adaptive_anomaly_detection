@@ -22,9 +22,9 @@ The field of anomaly detection is crucial for various technical applications, fr
 
 The repository is organized as follows:
 
-- `Cosine.py and SIFT_FLANN.py`: Contains the source code for the anomaly detection methods.
+- `cosine.py and SIFT_FLANN.py`: Contains the source code for the anomaly detection methods.
 - `NN.py`: Includes Neural networks used in experiments.
-- `Main.py`: This is the main execution file to be executed.
+- `main.py`: This is the main execution file to be executed.
 - `visualization.py`: This file generates results after the algorithm is executed completely.
 - `requirements.txt`: Contains supporting libraries for creating virtual environment.
 
@@ -42,7 +42,7 @@ To get started with this project, follow these steps:
    - [MvTec](https://www.mvtec.com/company/research/datasets/mvtec-ad)
    - [VisA](https://paperswithcode.com/dataset/visa)
 
-4. From the virtual environment execute the `Main.py` with following arguments:
+4. From the virtual environment execute the `main.py` with following arguments:
    - `-m, --anomaly_detection_method` - Select either `C` for Cosine or `SF` for SIFT-FLANN method.
    - `-f, --pretrained_features`    - Select either `y` to load pretrained features or `n` to compute train image dataset features
    - `-d, --train_data_path` - Provide the path containing images to be trained (/path/to/images/'.jpg', '.png', '.JPG')
@@ -51,7 +51,7 @@ To get started with this project, follow these steps:
    - (optional) `-v, --visualize_detection_on_off` - Choose either `0` == 'on' and `1` == 'off' to visualize the detections while execution of the algorithm.
 
    ```shell
-   (venv)$python3 Main.py -m C -d /path/to/images/*.jpg -t /path/to/images/*.jpg -r /directory/to/save/the/results -v 0
+   (venv)$python3 main.py -m C -d /path/to/images/*.jpg -t /path/to/images/*.jpg -r /directory/to/save/the/results -v 0
    
 (optional)
 
@@ -68,7 +68,7 @@ To get started with this project, follow these steps:
 
 To check the correctness of the code, following conditions should be met:
 - The executes without any errors.
-- The `Main.py` when executed with correct arguments should display the following results:
+- The `main.py` when executed with correct arguments should display the following results:
    1. Result : Anomaly/ No-Anomaly
    2. Computation time per frame:
    3. Average % data saved from training for every frame:
@@ -99,16 +99,14 @@ DOI: https://doi.org/10.1109/CASE59546.2024.10711376
   doi={10.1109/CASE59546.2024.10711376}}
 
 
+### Funding
+
+This work has been developed in the research projects [SeMoSys](https://robotik.dfki-bremen.de/en/research/projects/semosys/) (Grant number 20W1922F) with funds from the German	Federal Ministry for Economic Affairs and Climate Action (BMWK).
+
 ### Maintainer / Authors / Contributers
 
 - Siddhant Shete
 "Online_Adaptive_Anomaly_Detection_for_Defect_Identification_in_Aircraft_Assembly" was initiated in SeMoSys project and is currently developed at the
 Robotics Innovation Center of the German Research Center for ArtificialIntelligence (DFKI) in Bremen.
 
-"Online_Adaptive_Anomaly_Detection_for_Defect_Identification_in_Aircraft_Assembly"  has been funded by German Federal Ministry of Economic Affairs and
-Climate Action (BMWK, grant number 20W1922F).
-
-[//]: <> (add logos of funding agencies / DFKI / University here)
-
-
-Copyright 2023, Siddhant Shete, DFKI RIC
+Copyright 2023-2025, Siddhant Shete, DFKI RIC
