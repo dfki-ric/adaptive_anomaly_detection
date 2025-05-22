@@ -1,0 +1,8 @@
+services:
+  adaptive:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./scripts:/app/scripts/:rw
+      - ./data:/data:rw
