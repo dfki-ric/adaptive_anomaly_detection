@@ -1,9 +1,9 @@
 services:
-  adaptive:
+  adaptive_anomaly_detection:
     image: brean/adaptive_anomaly_detection:ubuntu24.04
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./scripts:/app/scripts/:rw
-      - ./data:/data:rw
+      - ./scripts:/ws/scripts/:rw
+      - ./data:/ws/data:rw

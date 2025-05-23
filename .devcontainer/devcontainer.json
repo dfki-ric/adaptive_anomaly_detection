@@ -1,0 +1,6 @@
+{
+    "name": "adaptive_anomaly_detection",
+    "dockerComposeFile": "../docker-compose.yml",
+    "workspaceFolder": "/ws",
+    "service": "adaptive_anomaly_detection"
+}
