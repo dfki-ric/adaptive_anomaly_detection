@@ -7,3 +7,4 @@ services:
     volumes:
       - ./scripts:/ws/scripts/:rw
       - ./data:/ws/data:rw
+      - ./README.md:/ws/README.md:rw
